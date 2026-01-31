@@ -34,14 +34,22 @@ header {
 
 nav a {
     margin-left: 16px;
-    text-decoration: none;
+    text-align: right;
     color: var(--primary-color);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: left;
 }
 
 h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 nav,
@@ -94,6 +102,7 @@ footer {
     padding: 16px;
     border-top: 1px solid #ccc;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .socialmedia a {
@@ -104,4 +113,31 @@ footer {
 .socialmedia img {
     width: 32px;
     height: auto;
+}
+
+.adventure-item {
+    border: 3px dashed white;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.adventure-item img {
+    width: 160px;
+    height: auto;
+    border: 1px solid #ccc;
+    display: block;
+}
+
+.adventure-item figcaption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+    height: 19px;
+}
+
+.gallery-container figcaption {
+    text-align: center;
 }
