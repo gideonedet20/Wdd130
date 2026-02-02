@@ -34,15 +34,14 @@ header {
 
 nav a {
     margin-left: 16px;
-    text-align: right;
+    text-decoration: none;
     color: var(--primary-color);
-    padding: 1rem;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    align-items: left;
+    margin: 1rem;
 }
 
 h1,
@@ -50,6 +49,10 @@ h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
+    margin: 10px;
+
+    background-color: var(--accent1-color);
+    padding: 15px;
 }
 
 nav,
@@ -67,7 +70,7 @@ article {
 .hero h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
+    width: 98%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
@@ -113,31 +116,59 @@ footer {
 .socialmedia img {
     width: 32px;
     height: auto;
+
+}
+
+.history-container p {
+    position: relative;
+    bottom: 20px;
+    float: left;
+    width: 125px;
+    padding: 50px;
+    width: 80%;
+    background-color: var(--accent1-color);
+    color: #f0e6e6;
+    width: 80%;
+
+}
+
+.history-container img {
+    width: 90px;
+    margin-left: 16px;
+    float: center;
+    border-radius: 10px;
+}
+
+.adventure-container {
+    border: 2px line dark;
+    background-color: rgb(228, 219, 219);
+    display: flex;
+    flex-direction: row;
 }
 
 .adventure-item {
-    border: 3px dashed white;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+    width: 100px;
+    height: auto;
+    margin: 1rem;
+    border: 1px;
+    padding: 0.5rem;
 }
 
 .adventure-item img {
-    width: 160px;
-    height: auto;
-    border: 1px solid #ccc;
-    display: block;
+    width: 120px;
+    border-radius: 2px;
+    gap: 20px;
 }
 
-.adventure-item figcaption {
-    margin-top: 8px;
-    font-size: 0.9rem;
-    color: #333;
-    height: 19px;
+.adventure-container figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 200px;
 }
 
-.gallery-container figcaption {
+.adventure-container figcaption {
+    margin: 3px;
     text-align: center;
 }
