@@ -122,7 +122,7 @@ article {
 
 .history-container img {
     width: 150px;
-    margin: 0 1 15px;
+    margin: 0;
     float: right;
     border-radius: 10px;
     margin-left: 16px;
@@ -152,7 +152,7 @@ article {
 .adventure-container img {
     width: 110px;
     border-radius: 1px;
-    gap: 20px;
+    justify-content: space-between;
 }
 
 .adventure-container figure {
@@ -167,7 +167,7 @@ article {
     margin: 0;
     text-align: center;
     color: var(--secondary-color);
-    align-items: right;
+    align-items: flex-start;
 }
 
 .footer-container {
@@ -196,7 +196,6 @@ article {
 }
 
 footer p {
-    flex: 2;
     text-align: center;
     margin: 0;
 
