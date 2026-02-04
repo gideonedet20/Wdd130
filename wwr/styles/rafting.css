@@ -41,7 +41,7 @@ header img {
 nav a {
     margin-left: 16px;
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 nav ul {
@@ -109,32 +109,44 @@ article {
 .history-container {
     position: relative;
     margin: 0;
-    padding: 1rem;
-    border: 1px solid rgb(0 0 0 / .2);
+    padding: 2rem;
+    border: 2px solid rgba(247, 243, 243, 0.2);
     background-color: var(--accent1-color);
 }
 
 .history-container p {
-    text-align: justify;
+    text-align: left;
     color: var(--secondary-color);
 
 }
 
 .history-container img {
-    width: 120px;
-    margin: 0 0 15px 15px;
+    width: 150px;
+    margin: 0 1 15px;
     float: right;
     border-radius: 10px;
     margin-left: 16px;
 }
 
+.adventure-row {
+    padding: 2rem;
+    background-color: var(--accent1-color);
+    margin: 0;
+    border: 2px solid rgb(116, 115, 113);
+}
+
+.adventure-row h2 {
+    text-decoration: var(--body-font);
+}
+
 .adventure-container {
     position: relative;
     margin: 0;
-    border: 1px solid rgb(0 0 0 / .2);
+    border: 1px solid rgba(240, 230, 230, 0.2);
     background-color: var(--accent1-color);
     display: flex;
     flex-direction: row;
+    padding: 4rem;
 }
 
 .adventure-container img {
@@ -165,14 +177,14 @@ article {
     border-top: 1px solid;
 }
 
-.footer-icon {
+.socialmedia {
     display: flex;
     gap: 15px;
     justify-content: flex-end;
     gap: 15px;
 }
 
-.footer-icon img {
+.socialmedia img {
     width: 24px;
     height: auto;
     cursor: pointer;
