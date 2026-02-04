@@ -41,7 +41,7 @@ header img {
 nav a {
     margin-left: 16px;
     text-decoration: none;
-    color: var(--accent2-color);
+    color: var(--primary-color);
 }
 
 nav ul {
