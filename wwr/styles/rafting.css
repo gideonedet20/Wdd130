@@ -31,7 +31,7 @@ header {
     padding: 10px;
     background-color: var(--accent1-color);
     border-radius: 2px;
-    border: 2px solid rgba(247, 243, 243, 0.2);
+    border: 2px solid rgb(38 70 83);
 
 }
 
@@ -185,7 +185,6 @@ article {
     display: flex;
     gap: 15px;
     justify-content: flex-end;
-    gap: 15px;
 }
 
 .socialmedia img {
