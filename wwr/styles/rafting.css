@@ -31,6 +31,8 @@ header {
     padding: 10px;
     background-color: var(--accent1-color);
     border-radius: 2px;
+    border: 2px solid rgba(247, 243, 243, 0.2);
+
 }
 
 header img {
@@ -42,6 +44,7 @@ nav a {
     margin-left: 16px;
     text-decoration: none;
     color: var(--primary-color);
+
 }
 
 nav ul {
@@ -57,7 +60,8 @@ h2 {
     text-align: center;
     margin: 10px;
     background-color: var(--accent1-color);
-    padding: 1px;
+    border: 1px solid rgba(247, 243, 243, 0.2);
+    ;
 }
 
 nav,
