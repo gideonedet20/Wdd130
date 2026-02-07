@@ -1,3 +1,7 @@
+:root {
+    --accent1-color: #264653;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +28,7 @@ main {
 
 /* ===== HEADER ===== */
 header {
-    background: #2e7d32;
+    background: var(--accent1-color);
     color: white;
     padding: 15px 30px;
     justify-content: space-between;
@@ -33,6 +37,7 @@ header {
     border-radius: 2px;
     border: 2px solid;
     max-width: 900px;
+    border: 1px solid;
 }
 
 header img {
@@ -56,7 +61,6 @@ h1 {
     text-align: center;
     margin: 2px;
     padding: 2px;
-    background-color: #333;
     border: 1px solid rgba(247, 243, 243, 0.2);
 }
 
@@ -70,7 +74,9 @@ padding: 8px;
 /* ===== CONTACT INFO ===== */
 .contact-info {
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 10px;
+    border: 1px solid #333;
+
 }
 
 /* ===== MAIN LAYOUT (MAP + FORM) ===== */
@@ -95,11 +101,10 @@ padding: 8px;
     border: 0;
 }
 
-/* FORM */
 .form-section input,
 .form-section textarea {
     display: block;
-    width: ;
+    width: 300px;
     padding: 8px;
     margin-bottom: 10px;
     box-sizing: border-box;
@@ -119,6 +124,7 @@ padding: 8px;
 .staff {
     text-align: center;
     margin: 40px 0;
+    border: 1px solid #333;
 }
 
 .staff-row {
@@ -171,5 +177,6 @@ footer {
     max-width: 900px;
     margin: 0 auto;
     padding: 15px 30px;
-    background-color: #2e7d32;
+    background-color: var(--accent1-color);
+    color: aliceblue;
 }
