@@ -5,86 +5,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | White Water Rafting</title>
-    <link rel="stylesheet" href="styles/contact_us.css">
+    <link rel="stylesheet" href="Rafting.css">
     <meta name="description"
       content="Contact White Water Rafting for reservations, questions, or support.">
-    < </head>
+    <meta name="author" content="Gideon Edet">
+</head>
 
 <body>
 
     <header>
-        <h1>White Water Rafting</h1>
+        <img src="images/z-wwr-crossedoars.png" alt="logo">
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
     <main>
+        <div class="hero">
+            <h1>White Water Rafting</h1>
 
-        <section class="contact-info">
-            <h2>Contact Information</h2>
-            <p>Address: 123 River Road, Lagos, Nigeria</p>
-            <p>Phone: +234 800 000 0000</p>
-            <p>Email: info@rafting.com</p>
-        </section>
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <p>123 River Road, Lagos Nigeria</p>
+                <p>Phone: +234 800 000 0000</p>
+                <p>Email: info@rafting.com</p>
+            </section>
+        </div>
+        <section class="contact-main">
 
-        <section class="map">
-            <h2>Our Location</h2>
-            <!-- Replace src with your Google Map embed link -->
-            <iframe src="https://www.google.com/maps?q=lagos&output=embed" loading="lazy"></iframe>
-        </section>
+            <!-- MAP -->
+            <div class="map-section">
+                <h3>Our Location</h3>
+                <iframe
+                  src="https://maps.google.com/maps?q=lagos&t=&z=10&ie=UTF8&iwloc=&output=embed">
+                </iframe>
+            </div>
 
-        <section class="employees">
-            <figure>
-                <img src="images/emp1.jpg" alt="Manager">
-                <figcaption>John – Manager</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/emp2.jpg" alt="Tour Guide">
-                <figcaption>Sarah – Tour Guide</figcaption>
-            </figure>
-
-            <figure>
-                <img src="images/emp3.jpg" alt="Support Staff">
-                <figcaption>Mike – Support Staff</figcaption>
-            </figure>
-        </section>
-
-        <section>
-            <h2>Send Us a Message</h2>
-
-            <form action="#" method="post">
+            <!-- FORM -->
+            <div class="form-section">
+                <h3>Send Us a Message</h3>
 
                 <label>Name</label>
-                <input type="text" required>
+                <input type="text">
 
                 <label>Email</label>
-                <input type="email" required>
+                <input type="email">
+
+                <label>Message</label>
+                <textarea rows="5"></textarea>
 
                 <p>Purpose:</p>
                 <label><input type="radio" name="purpose"> General Inquiry</label><br>
                 <label><input type="radio" name="purpose"> Reservation Question</label><br>
                 <label><input type="radio" name="purpose"> Website Suggestion</label><br><br>
 
-                <label>Message</label>
-                <textarea rows="4"></textarea>
 
-                <label>
-                    <input type="checkbox"> Please subscribe me to the monthly newsletter
-                </label><br><br>
+                <button>Get in Touch</button>
+            </div>
 
-                <button type="submit">Send Message</button>
-
-            </form>
         </section>
 
+        <!-- STAFF -->
+        <section class="staff">
+            <h2>We Are Here to Serve You</h2>
+
+            <div class="staff-row">
+                <div class="employee">
+                    <img src="https://via.placeholder.com/80">
+                    <p>John – Manager</p>
+                </div>
+
+                <div class="employee">
+                    <img src="https://via.placeholder.com/80">
+                    <p>Sarah – Tour Guide</p>
+                </div>
+
+                <div class="employee">
+                    <img src="https://via.placeholder.com/80">
+                    <p>Mike – Support Staff</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 White Water Rafting</p>
+        <p>© 2026 White Water Rafting</p>
     </footer>
 
 </body>
