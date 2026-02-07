@@ -115,8 +115,9 @@ padding: 8px;
 }
 
 .form-section button {
-    border-radius: 10px;
-    padding: 15px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px;
     background: #2e7d32;
     color: rgb(255, 253, 253);
     border: none;
