@@ -65,10 +65,9 @@ h1 {
 }
 
 nav,
-section,
-{
-margin: 16px;
-padding: 8px;
+section {
+    margin: 16px;
+    padding: 8px;
 }
 
 /* ===== CONTACT INFO ===== */
