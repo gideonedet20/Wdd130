@@ -83,11 +83,9 @@ padding: 8px;
 .contact-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* left and right */
-    gap: 40px;
+    gap: 30px;
     align-items: start;
-    /* TOP ALIGNMENT */
-    padding: 20px 60px;
+    padding: 20px 50px;
 }
 
 .hero {
