@@ -4,7 +4,7 @@
 }
 
 header {
-    color: white;
+
     padding: 15px 30px;
     justify-content: space-between;
     align-items: center;
@@ -98,7 +98,7 @@ header p {
     margin-bottom: 50px;
 }
 
-.intro h2 {
+.intro h1 {
     color: var(--primary);
     font-size: larger;
 }
