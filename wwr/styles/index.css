@@ -15,7 +15,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
-    text-decoration: none;
     width: 100%;
     color: white;
     background: #2f4f4f;
@@ -27,8 +26,8 @@ header img {
 }
 
 nav a {
-    margin-left: 16px;
     text-decoration: none;
+    margin-left: 16px;
     color: white;
     font-weight: bold;
 }

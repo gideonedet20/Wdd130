@@ -131,7 +131,7 @@ header p {
     padding: 25px;
 }
 
-.trip-content h3 {
+.trip-content h1 {
     margin: 0 0 12px;
     color: var(--primary);
     font-size: 1.8rem;
